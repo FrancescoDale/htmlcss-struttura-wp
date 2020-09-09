@@ -16,7 +16,7 @@ header {
 }
 
 aside.left {
-    width: calc(30% - 5px);
+    width: 25%;
     height: 400px;
     background-color: violet;
     float: left;
@@ -24,31 +24,27 @@ aside.left {
 }
 
 aside.right {
-    width: calc(30% - 5px);
-
+    width: 25%;
+    height: 100px;
     float: left;
-    margin-left: 10px;
+
 }
 
-aside.rightup, aside.rightdown {
-    width: 100%;
+.box {
+    width: 50%;
     height: 100px;
     background-color: violet;
-    float: left;
-
 }
-
-
 
 aside.right:after {
     content:'';
     display: table;
-    clear: left;
+    clear: both;
 }
 
 
 main {
-    width: calc(30% - 10px);
+    width: calc(50% - 60px);
     height: 500px;
     background-color: purple;
     float: left;
